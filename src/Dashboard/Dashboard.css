@@ -1,0 +1,19 @@
+.headerLeftTitle {
+  display: inline-block !important;
+  vertical-align: middle !important;
+}
+
+.headerRightDiv {
+  float: right;
+  margin-right: 20%;
+  cursor: pointer;
+}
+
+:root .ant-dropdown-trigger .anticon:not(.anticon-ellipsis),
+:root .ant-dropdown-link .anticon:not(.anticon-ellipsis) {
+  font-size: 20px;
+}
+
+.ant-dropdown-menu-item > a {
+  display: inline-block !important;
+}
