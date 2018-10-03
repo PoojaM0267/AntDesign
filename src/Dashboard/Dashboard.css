@@ -17,3 +17,24 @@
 .ant-dropdown-menu-item > a {
   display: inline-block !important;
 }
+
+.dashboardRightDiv .ant-card,
+.dashboardLeftDiv .ant-card {
+  width: initial !important;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  margin: 0 10px;
+}
+/* 
+.dashboardRightDiv .boardContainerCard {
+  border: none;
+} */
+
+.dashboardRightDiv .boardCardContentDiv {
+  margin: 20px 0;
+}
+
+.dashboardRightDiv .boardCardContentDiv h2 {
+  margin: 0 20px;
+  display: inline;
+}

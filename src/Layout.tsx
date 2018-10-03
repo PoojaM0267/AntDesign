@@ -13,6 +13,7 @@ class Layout extends React.Component {
           <div>
             <Dashboard>
               <Switch>
+                <Route path="/dashboard" component={KanbanBoard} />
                 <Route path="/dashboard/kanban-board" component={KanbanBoard} />
                 <Route path="/dashboard/tasks" component={Tasks} />
               </Switch>

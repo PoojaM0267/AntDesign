@@ -8,7 +8,7 @@ import SettingsIcon from "@material-ui/icons/Settings";
 
 export const sideMenuItems = [
   {
-    text: "Kanban Board",
+    text: "Dashboard",
     actionKey: "kanban-board",
     id: 1,
     iconType: <DashboardIcon />
